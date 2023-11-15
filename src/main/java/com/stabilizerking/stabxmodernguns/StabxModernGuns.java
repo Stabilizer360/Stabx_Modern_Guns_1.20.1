@@ -2,11 +2,11 @@ package com.stabilizerking.stabxmodernguns;
 
 import com.mrcrayfish.guns.item.GunItem;
 import com.stabilizerking.stabxmodernguns.client.ClientHandler;
+import com.stabilizerking.stabxmodernguns.registeration.ModCreativeModeTabRegisteration;
 import com.stabilizerking.stabxmodernguns.registeration.ModItemRegisteration;
 import com.stabilizerking.stabxmodernguns.registeration.ModSoundRegisteration;
-import com.stabilizerking.stabxmodernguns.registeration.StabxCreativeModeTab;
 import com.stabilizerking.stabxmodernguns.utils.StabxModUtils;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -40,8 +40,8 @@ public class StabxModernGuns {
 
     //----------------------------------------------------Pistols-------------------------------------------------------------------------------//
 
-    private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if (event.getTab() == StabxCreativeModeTab.STABX_MODERN_GUNS_GROUP) {
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == ModCreativeModeTabRegisteration.SMGS) {
             List<GunItem> gunItems = new ArrayList<>();
 
             gunItems.add(ModItemRegisteration.FIVE_HUNDRED_MAGNUM_SMITH_AND_WESSON.get());
@@ -60,7 +60,7 @@ public class StabxModernGuns {
         //----------------------------------------------------Sub Machine Guns-------------------------------------------------------------------------------//
 
 
-        if (event.getTab() == StabxCreativeModeTab.STABX_SMGS_GROUP) {
+        if (event.getTab() == ModCreativeModeTabRegisteration.Stabxmodernguns) {
             List<GunItem> gunItems = new ArrayList<>();
 
             gunItems.add(ModItemRegisteration.MP5_CLASSIC.get());
