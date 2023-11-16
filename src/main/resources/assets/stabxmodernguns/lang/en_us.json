@@ -100,16 +100,7 @@
   "subtitle.stabxmodernguns.enchanted_fire": "Enchanted gunfire",
 
 
-
-  "creativetab.stabxmodernguns": "Stabx Modern Guns/Pistols",
-  "creativetab.stabx_smgs": "Sub Machine Guns",
-  "creativetab.stabx_assault_rifles": "Assault Rifles",
-  "creativetab.stabx_shotguns": "Shotguns",
-  "creativetab.stabx_rifles": "Rifles",
-  "creativetab.stabx_sniper_rifles": "Sniper Rifles",
-  "creativetab.stabx_lmgs": "Light Machine Guns",
-  "creativetab.stabx_misc": "Miscellaneous/Attachments",
-  "creativetab.stabx_ammunation": "Ammunition",
-  "creativetab.stabx_dmrs": "Marksman Rifles/DMRs",
-  "creativetab.elitewarfare_tab": ""
+  "creativetab.stabxmodernguns_tab": "Stabx Modern Guns. Pistols",
+  "creativetab.ammunition_tab": "Ammunition",
+  "creativetab.attachments_tab": "Attachments"
 }
