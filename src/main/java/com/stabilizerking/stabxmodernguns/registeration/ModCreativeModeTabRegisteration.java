@@ -78,6 +78,19 @@ public class ModCreativeModeTabRegisteration {
                     .build());
 
 
+    public static final RegistryObject<CreativeModeTab> SMGS = CREATIVE_MODE_TABS.register("smgs",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItemRegisteration.MP5_CLASSIC.get()))
+                    .title(Component.translatable("creativetab.smgs"))
+                    .displayItems((pParameters, pOutput) -> {
+
+                        pOutput.accept(ModItemRegisteration.MP5_CLASSIC.get());
+                        pOutput.accept(ModItemRegisteration.ZXR_MP7.get());
+
+
+                    })
+                    .build());
+
+
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
     }
