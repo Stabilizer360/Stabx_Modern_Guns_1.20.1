@@ -1,9 +1,6 @@
 {
     "pack": {
         "description": "Stabx Modern Guns Resources",
-        "pack_format": 13,
-        "forge:resource_pack_format": 13,
-        "forge:data_pack_format": 12,
-        "_comment": "The most High Quality guns ever"
+        "pack_format": 15
     }
 }

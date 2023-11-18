@@ -30,6 +30,8 @@ public class StabxModernGuns {
 
         ModItemRegisteration.ITEMS.register(modEventBus);
         ModSoundRegisteration.SOUNDS.register(modEventBus);
+        ModCreativeModeTabRegisteration.register(modEventBus);
+
 
         modEventBus.addListener(this::addCreative);
         modEventBus.addListener(this::clientSetup);
@@ -39,10 +41,6 @@ public class StabxModernGuns {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.COMBAT){
-            event.accept(ModItemRegisteration.FIVE_HUNDRED_MAGNUM_SMITH_AND_WESSON);
-        }
-
     }
 
     private void clientSetup(final FMLClientSetupEvent event)

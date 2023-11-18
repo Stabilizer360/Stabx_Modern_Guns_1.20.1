@@ -26,7 +26,6 @@ public class ModItemRegisteration {
 
     public static final RegistryObject<GunItem> GLOCK_19_C = ITEMS.register("glock19c",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
-
     public static final RegistryObject<GunItem> DESERT_EAGLE_MARK_14= ITEMS.register("desert_eagle_mark14",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
@@ -66,6 +65,14 @@ public class ModItemRegisteration {
 
     //-------------------------------------------------Assault Rifles ---------------------------------------------------------------//
 
+
+    public static final RegistryObject<GunItem> AK_47= ITEMS.register("ak47",
+            () -> new GunItem(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<GunItem> RATNIK19 = ITEMS.register("ratnik19",
+            () -> new GunItem(new Item.Properties().stacksTo(1)));
+
+
     public static final RegistryObject<GunItem> M4= ITEMS.register("m4",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
@@ -76,9 +83,6 @@ public class ModItemRegisteration {
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<GunItem> SCAR_17= ITEMS.register("scar17",
-            () -> new GunItem(new Item.Properties().stacksTo(1)));
-
-    public static final RegistryObject<GunItem> AK_47= ITEMS.register("ak47",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<GunItem> MODERN_GK57= ITEMS.register("modern_gk57",
@@ -106,18 +110,18 @@ public class ModItemRegisteration {
             () -> new GunItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<GunItem> G36C_HD= ITEMS.register("g36chd",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<GunItem> ACR_BUSHMASTER= ITEMS.register("acr_360_bushmaster",
+    public static final RegistryObject<GunItem> ACR_BUSHMASTER = ITEMS.register("acr_360_bushmaster",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<GunItem> SCAR17_HD= ITEMS.register("scar17hd",
+    public static final RegistryObject<GunItem> SCAR17_HD = ITEMS.register("scar17hd",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<GunItem> AUG556= ITEMS.register("aug556",
+    public static final RegistryObject<GunItem> AUG556 = ITEMS.register("aug556",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<GunItem> FAMAS_G7= ITEMS.register("famas_g7",
+    public static final RegistryObject<GunItem> FAMAS_G7 = ITEMS.register("famas_g7",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<GunItem> MCX_HONEYBADGER= ITEMS.register("mcx_citrus_honeybadger",
+    public static final RegistryObject<GunItem> MCX_HONEYBADGER = ITEMS.register("mcx_citrus_honeybadger",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
-    public static final RegistryObject<GunItem> NZ41= ITEMS.register("nz41",
+    public static final RegistryObject<GunItem> NZ41 = ITEMS.register("nz41",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<GunItem> AZ67 = ITEMS.register("az67",
@@ -156,10 +160,10 @@ public class ModItemRegisteration {
     public static final RegistryObject<GunItem> KAR98K = ITEMS.register("kar98k",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
+
+
+
     //----------------------------------------------------Marksman DMR Rifles---------------------------------------------------------------//
-
-
-
 
     public static final RegistryObject<GunItem> M14 = ITEMS.register("m14",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
@@ -188,7 +192,7 @@ public class ModItemRegisteration {
 
     //--------------------------------------------------Light Machine Guns ---------------------------------------------------------------//
 
-    public static final RegistryObject<GunItem> M_60 = ITEMS.register("m60",
+    public static final RegistryObject<GunItem> M60 = ITEMS.register("m60",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<GunItem> RPK = ITEMS.register("rpk",
@@ -237,10 +241,10 @@ public class ModItemRegisteration {
     //--------------------------------------------------- Barrel Attachments ---------------------------------------------------------------//
 
     public static final RegistryObject<BarrelItem> ADVANCED_SUPPRESSOR = ITEMS.register("advanced_suppressor",
-            () -> new BarrelItem(Barrel.create(17.0f, GunModifiers.SILENCED),new Item.Properties().stacksTo(1)));
+            () -> new BarrelItem(Barrel.create(16.0f, GunModifiers.SILENCED),new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<BarrelItem> ADVANCED_MUZZLE_BRAKE = ITEMS.register("advanced_muzzle_brake",
-            () -> new BarrelItem(Barrel.create(7.0f, GunModifiers.REDUCED_RECOIL),new Item.Properties().stacksTo(1)));
+            () -> new BarrelItem(Barrel.create(4.0f, GunModifiers.REDUCED_RECOIL),new Item.Properties().stacksTo(1)));
 
 
     //-------------------------------------------------- UnderBarrel Attachments ---------------------------------------------------------------//

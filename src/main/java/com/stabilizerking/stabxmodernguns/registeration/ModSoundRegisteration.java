@@ -83,10 +83,13 @@ public class ModSoundRegisteration {
     public static final RegistryObject<SoundEvent> AK47_FIRE = register("item.ak47.fire");
     public static final RegistryObject<SoundEvent> AK47_COCK = register("item.ak47.cock");
     public static final RegistryObject<SoundEvent> AK47_SUPPRESSED = register("item.ak47.suppressed");
+    public static final RegistryObject<SoundEvent> RATNIK19_FIRE = register("item.ratnik19.fire");
+    public static final RegistryObject<SoundEvent> RATNIK19_COCK = register("item.ratnik19.cock");
+    public static final RegistryObject<SoundEvent> RATNIK19_SUPPRESSED = register("item.ratnik19.suppressed");
 
-    public static final RegistryObject<SoundEvent> AK74S_FIRE = register("item.ak74s.fire");
-    public static final RegistryObject<SoundEvent> AK74S_COCK = register("item.ak74s.cock");
-    public static final RegistryObject<SoundEvent> AK74S_SUPPRESSED = register("item.ak74s.suppressed");
+    public static final RegistryObject<SoundEvent> AKS74_FIRE = register("item.aks74.fire");
+    public static final RegistryObject<SoundEvent> AKS74_COCK = register("item.aks74.cock");
+    public static final RegistryObject<SoundEvent> AKS74_SUPPRESSED = register("item.aks74.suppressed");
 
 
     public static final RegistryObject<SoundEvent> AKM_762_FIRE = register("item.akm762.fire");

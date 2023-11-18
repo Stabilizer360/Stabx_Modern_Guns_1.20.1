@@ -40,7 +40,7 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.SPR_3608.get(), new SprSniperRifleModel());
         ModelOverrides.register(ModItemRegisteration.SKS.get(), new SksMarksmanModel());
         ModelOverrides.register(ModItemRegisteration.M14.get(), new M14GunModel());
-        ModelOverrides.register(ModItemRegisteration.M_60.get(), new M60Model());
+        ModelOverrides.register(ModItemRegisteration.M60.get(), new M60Model());
         ModelOverrides.register(ModItemRegisteration.BAREETA67.get(), new Bareeta67Model());
         ModelOverrides.register(ModItemRegisteration.MODERN_GK57.get(), new GK57Model());
         ModelOverrides.register(ModItemRegisteration.AKS_74.get(), new AKs74Model());
@@ -62,6 +62,7 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.DRAGNAOV_SVD.get(), new DragnaovSVDModel());
         ModelOverrides.register(ModItemRegisteration.AK_103.get(), new AK103Model());
         ModelOverrides.register(ModItemRegisteration.AZ67.get(), new Az67Model());
+        ModelOverrides.register(ModItemRegisteration.RATNIK19.get(), new Ratnik19Model());
 
     }
 }
